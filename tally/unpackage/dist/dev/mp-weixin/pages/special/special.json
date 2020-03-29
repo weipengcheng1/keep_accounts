@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "记账",
+  "usingComponents": {
+    "keyboard-package": "/components/keyboard-package/keyboard-package",
+    "vant-button": "/wxcomponents/vant/dist/button/index"
+  }
+}

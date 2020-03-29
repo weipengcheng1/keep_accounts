@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/uni-popup/uni-popup"],{"13c1":function(t,n,e){"use strict";var o=e("b408"),u=e.n(o);u.a},"2c08":function(t,n,e){"use strict";e.r(n);var o=e("bb3b"),u=e.n(o);for(var i in o)"default"!==i&&function(t){e.d(n,t,function(){return o[t]})}(i);n["default"]=u.a},6934:function(t,n,e){"use strict";var o,u=function(){var t=this,n=t.$createElement;t._self._c},i=[];e.d(n,"b",function(){return u}),e.d(n,"c",function(){return i}),e.d(n,"a",function(){return o})},"783f":function(t,n,e){"use strict";e.r(n);var o=e("6934"),u=e("2c08");for(var i in u)"default"!==i&&function(t){e.d(n,t,function(){return u[t]})}(i);e("13c1");var c,a=e("f0c5"),s=Object(a["a"])(u["default"],o["b"],o["c"],!1,null,null,null,!1,o["a"],c);n["default"]=s.exports},b408:function(t,n,e){},bb3b:function(t,n,e){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var o={name:"UniPopup",props:{animation:{type:Boolean,default:!0},type:{type:String,default:"center"},custom:{type:Boolean,default:!1},maskClick:{type:Boolean,default:!0},show:{type:Boolean,default:!0}},data:function(){return{ani:"",showPopup:!1}},watch:{show:function(t){t?this.open():this.close()}},created:function(){},methods:{clear:function(){},open:function(){var t=this;this.$emit("change",{show:!0}),this.showPopup=!0,this.$nextTick(function(){setTimeout(function(){t.ani="uni-"+t.type},30)})},close:function(t){var n=this;!this.maskClick&&t||(this.$emit("change",{show:!1}),this.ani="",this.$nextTick(function(){setTimeout(function(){n.showPopup=!1},300)}))}}};n.default=o}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/uni-popup/uni-popup-create-component',
+    {
+        'components/uni-popup/uni-popup-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("783f"))
+        })
+    },
+    [['components/uni-popup/uni-popup-create-component']]
+]);

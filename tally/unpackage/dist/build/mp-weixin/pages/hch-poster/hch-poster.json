@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "分享",
+  "usingComponents": {
+    "hch-poster": "/wxcomponents/hch-poster/hch-poster"
+  }
+}

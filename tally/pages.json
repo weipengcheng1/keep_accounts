@@ -1,0 +1,69 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"component": true,
+				"usingComponents": {}
+			}
+		},
+		{
+			"path": "pages/special/special",
+			"style": {
+				"navigationBarTitleText": "记账",
+				"usingComponents": {
+					"vant-button": "/wxcomponents/vant/dist/button/index"
+				}
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		}, {
+			"path": "pages/remind/remind",
+			"style": {
+				"navigationBarTitleText": "记账提醒"
+			}
+		},
+		{
+			"path": "pages/hch-poster/hch-poster",
+			"style": {
+				"navigationBarTitleText": "分享"
+			}
+		}, {
+			"path": "pages/billdetail/billdetail",
+			"style": {
+				"navigationBarTitleText":"账单详情"
+			}
+		}
+	],
+	"tabBar": {
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "./static/icon/index_icon.png",
+				"selectedIconPath": "static/icon/index.png"
+			}, {
+				"pagePath": "pages/special/special",
+				"text": "记账",
+				"iconPath": "static/icon/add1_icon.png",
+				"selectedIconPath": "static/icon/add.png"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "我的",
+				"iconPath": "static/icon/user_icon.png",
+				"selectedIconPath": "static/icon/usre.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#ff976a",
+		"backgroundColor": "#F8F8F8"
+	}
+}

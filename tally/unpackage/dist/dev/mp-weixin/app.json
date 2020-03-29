@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/special/special",
+    "pages/user/user",
+    "pages/remind/remind",
+    "pages/hch-poster/hch-poster",
+    "pages/billdetail/billdetail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#ff976a",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./static/icon/index_icon.png",
+        "selectedIconPath": "static/icon/index.png"
+      },
+      {
+        "pagePath": "pages/special/special",
+        "text": "记账",
+        "iconPath": "static/icon/add1_icon.png",
+        "selectedIconPath": "static/icon/add.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "static/icon/user_icon.png",
+        "selectedIconPath": "static/icon/usre.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
